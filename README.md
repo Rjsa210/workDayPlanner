@@ -24,3 +24,5 @@ I wanted the page to generate from one single concise for/loop. This loop would.
 Ultimately, I was unable to achieve the last as neatly as I had hoped due to an inability to base a JQuery selector on an index of an array. If there is a way to do this, I have not been able to find it. For example $('#input' + i) does not work, so this must be referenced outside of the for loop
 
 I did however learn a lot about working with API's and would be able to complete this project much faster with the knowledge I have gained. Also i learned how to make CSS selectors much more versatile, and not just apply to elements, classes and id's; but also datasets, names, etc.
+
+The Website can be viewed here [unit5_WorkDayPlanner](https://rjsa210.github.io/workDayPlanner/)
