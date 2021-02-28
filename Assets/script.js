@@ -44,7 +44,7 @@ function renderHours() {
     inputPrepend.addClass('input-group-prepend').attr('id', 'input-group-prepend-' + i);
 
     var inputLabel = $('<label>');
-    inputLabel.addClass('input-group-text hour').text((hours[i]).format('hh a'));
+    inputLabel.addClass('input-group-text hour').text((hours[i]).format('h a'));
 
     var inputFill = $('<textarea>');
     inputFill.addClass('form-control').attr('id', 'input-' + i).attr('data-color', 'future').attr('name', 'taskInput');
